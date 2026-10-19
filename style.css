@@ -15,7 +15,7 @@ header nav{margin-left:auto}.contact-icons{display:flex;gap:8px;align-items:cent
 .project-card .cover{position:relative}
 .project-card .cover img{display:block;transition:none}
 .project-card:hover .cover img{transform:none}
-.card-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.75);color:#fff;opacity:0;transition:opacity .25s}
+.card-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);color:#fff;opacity:0;transition:opacity .25s}
 .card-overlay h2{font-size:clamp(18px,2.5vw,36px);font-weight:400;line-height:1.15;letter-spacing:-.03em;text-align:center;margin:0}
 .project-card:hover .card-overlay,.project-card:focus-visible .card-overlay{opacity:1}
 .cuisine-outcome{margin-bottom:65px}.cuisine-heading h1{font-size:clamp(36px,5vw,68px)}
