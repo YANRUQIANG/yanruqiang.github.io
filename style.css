@@ -34,3 +34,9 @@ header nav{margin-left:auto}.contact-icons{display:flex;gap:8px;align-items:cent
 
 /* Brand palette: navy, white, sky blue, yellow. */
 .close{color:var(--ink)}.menu-play,.dish-stage{border:1px solid var(--line)}.dish-choice[aria-pressed=true] small,.dish-choice:hover small{color:var(--paper)}a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:var(--yellow)}nav a:hover,.back:hover,.next-project:hover strong,footer a:hover{color:var(--yellow)}::selection{background:var(--yellow);color:var(--paper)}
+
+/* Republish brand theme after Pages queue interruption. */
+
+.brand-social a{display:inline-block;padding:12px 0;border-bottom:1px solid var(--blue);color:var(--blue)}.brand-social a:hover{color:var(--yellow)}
+.hd-cursor{position:fixed;top:0;left:0;width:34px;height:26px;object-fit:contain;pointer-events:none;z-index:2147483647;display:none}
+@media(hover:hover) and (pointer:fine){html.hd-cursor-active,html.hd-cursor-active *{cursor:none!important}.hd-cursor.is-visible{display:block}}
